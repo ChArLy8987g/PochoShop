@@ -147,15 +147,25 @@ main {
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
+.producto{
+    transition: all .5s;
+    border-radius: 1rem;
+    overflow: hidden;
+}
 
 .producto:hover{
-     box-shadow: 0 10px 20px rgba(0,0,0,0.20);
-     transform: scale(1.2);
+     box-shadow: 0 10px 20px rgba(0,0,0,0.20);     
+}
+
+.producto:hover img{
+transform: scale(1.2);
 }
 
 .producto-imagen {
     max-width: 100%;
     border-radius: 1rem;
+    transition: all .5s;
+        
 }/*
 .producto:hover img{
     
